@@ -2,7 +2,7 @@
   "name": "akhileshsooji-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akhileshsooji.github.io",
+  "homepage": "https://akhileshsooji028.github.io",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
