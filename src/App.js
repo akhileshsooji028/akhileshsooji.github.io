@@ -31,9 +31,6 @@ export default function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/portfolio">
-          <Home />
-        </Route>
         <Route>
           <Error404 />
         </Route>

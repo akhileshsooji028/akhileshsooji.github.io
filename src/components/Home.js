@@ -11,7 +11,7 @@ export default function Home() {
         </figure>
         <article>
           <h1 className="home-title">
-                        Akhilesh Sooji
+                        Akhilesh A Sooji
           </h1>
           <p className="home-description">
                         Full-Stack Developer
