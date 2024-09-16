@@ -7,7 +7,7 @@ export default function Home() {
     <div className="home-page-container">
       <div className="home-container__inner home-container__animated">
         <figure>
-          <img className="home-profile-pic" alt="Profile" src={ProfilePictureIcon} />
+          <img className="home-profile-pic" alt="Akhilesh Sooji" src={ProfilePictureIcon} />
         </figure>
         <article>
           <h1 className="home-title">
