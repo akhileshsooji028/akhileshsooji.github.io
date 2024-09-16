@@ -1,6 +1,6 @@
 import React from "react";
 
-import ProfilePictureIcon from "../assets/images/IMG_5899.jpg";
+import ProfilePictureIcon from "../assets/images/akhil.jpeg";
 
 export default function Home() {
   return (

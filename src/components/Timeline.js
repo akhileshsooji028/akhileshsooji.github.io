@@ -23,7 +23,7 @@ export default function Home() {
         >
           <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>WizardTales GmbH</span></h3>
           <h4 className="vertical-timeline-element-subtitle">Software Developer</h4>
-          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://sl.dev.o4oe.de/" target="_blank" rel="noopener noreferrer">https://sl.dev.o4oe.de/</a></h5>
+          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://software.opencode.de/" target="_blank" rel="noopener noreferrer">https://software.opencode.de/</a></h5>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>Tech Stack Used:</span> [Hapi JS, Postgresql, Vue 3, Webpack, Docker, Gitlab API]</h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -36,6 +36,7 @@ export default function Home() {
           <h4 className="vertical-timeline-element-subtitle">MERN Stack Developer</h4>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://gateway.mypackageforwarder.com/" target="_blank" rel="noopener noreferrer">Dashboard: https://gateway.mypackageforwarder.com/</a></h5>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://mypackageforwarder.com/" target="_blank" rel="noopener noreferrer">Landing Page: https://mypackageforwarder.com/</a></h5>
+          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://www.vapa.ai/en/home" target="_blank" rel="noopener noreferrer">Client Project: https://www.vapa.ai/en/home</a></h5>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>Tech Stack Used:</span> [Express JS, React JS, SQL, EC2, S3, ShipStation API, Nginx]</h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
