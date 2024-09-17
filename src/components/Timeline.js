@@ -13,7 +13,7 @@ import { ReactComponent as StarIcon } from "../assets/icons/star.svg";
 export default function Home() {
   return (
     <div>
-      <h2 style={{"text-align": "center", "fontWeight": "bold", textDecorationLine: "underline"}}>Work experience & Education</h2>
+      <h2 style={{"textAlign": "center", "fontWeight": "bold", textDecorationLine: "underline"}}>Work experience & Education</h2>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -21,9 +21,9 @@ export default function Home() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>WizardTales GmbH</span></h3>
+          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "textDecorationLine": "underline"}}>WizardTales GmbH</span></h3>
           <h4 className="vertical-timeline-element-subtitle">Software Developer</h4>
-          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://software.opencode.de/" target="_blank" rel="noopener noreferrer">https://software.opencode.de/</a></h5>
+          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"textDecorationLine": "none"}} href="https://software.opencode.de/" target="_blank" rel="noopener noreferrer">https://software.opencode.de/</a></h5>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>Tech Stack Used:</span> [Hapi JS, Postgresql, Vue 3, Webpack, Docker, Gitlab API]</h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -32,11 +32,11 @@ export default function Home() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>Webmanufact Pvt Ltd, Bangalore</span></h3>
+          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "textDecorationLine": "underline"}}>Webmanufact Pvt Ltd, Bangalore</span></h3>
           <h4 className="vertical-timeline-element-subtitle">MERN Stack Developer</h4>
-          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://gateway.mypackageforwarder.com/" target="_blank" rel="noopener noreferrer">Dashboard: https://gateway.mypackageforwarder.com/</a></h5>
-          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://mypackageforwarder.com/" target="_blank" rel="noopener noreferrer">Landing Page: https://mypackageforwarder.com/</a></h5>
-          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"text-decoration-line": "none"}} href="https://www.vapa.ai/en/home" target="_blank" rel="noopener noreferrer">Client Project: https://www.vapa.ai/en/home</a></h5>
+          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"textDecorationLine": "none"}} href="https://gateway.mypackageforwarder.com/" target="_blank" rel="noopener noreferrer">Dashboard: https://gateway.mypackageforwarder.com/</a></h5>
+          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"textDecorationLine": "none"}} href="https://mypackageforwarder.com/" target="_blank" rel="noopener noreferrer">Landing Page: https://mypackageforwarder.com/</a></h5>
+          <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>URL:</span> <a style={{"textDecorationLine": "none"}} href="https://www.vapa.ai/en/home" target="_blank" rel="noopener noreferrer">Client Project: https://www.vapa.ai/en/home</a></h5>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>Tech Stack Used:</span> [Express JS, React JS, SQL, EC2, S3, ShipStation API, Nginx]</h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -45,7 +45,7 @@ export default function Home() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>Dexler Education - Gyanamite, Bangalore</span></h3>
+          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "textDecorationLine": "underline"}}>Dexler Education - Gyanamite, Bangalore</span></h3>
           <h4 className="vertical-timeline-element-subtitle">MERN Stack Developer</h4>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>Tech Stack Used:</span> [AWS lambda, API Gateway, S3, EC2, CloudWatch, React JS, mongoDB]</h5>
         </VerticalTimelineElement>
@@ -55,7 +55,7 @@ export default function Home() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>7Kutewon Technologies Pvt Ltd (Thruskills) - Bangalore</span></h3>
+          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "textDecorationLine": "underline"}}>7Kutewon Technologies Pvt Ltd (Thruskills) - Bangalore</span></h3>
           <h4 className="vertical-timeline-element-subtitle">MERN Stack Developer</h4>
           <h5 className="vertical-timeline-element-subtitle"><span style={{fontWeight: "bold"}}>Tech Stack Used:</span> [AWS lambda, API Gateway, S3, EC2, CloudWatch, React JS, mongoDB]</h5>
         </VerticalTimelineElement>
@@ -65,7 +65,7 @@ export default function Home() {
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>KLS Gogte Institute of Technology - Belgaum</span></h3>
+          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "textDecorationLine": "underline"}}>KLS Gogte Institute of Technology - Belgaum</span></h3>
           <h4 className="vertical-timeline-element-subtitle">Bachelor of Engineering in Electronics and Communication</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -74,7 +74,7 @@ export default function Home() {
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>KLS Shri Vasantrao Potdar Polytechnic – Belgaum</span></h3>
+          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "textDecorationLine": "underline"}}>KLS Shri Vasantrao Potdar Polytechnic – Belgaum</span></h3>
           <h4 className="vertical-timeline-element-subtitle">Diploma in Electronics and Communication</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -83,7 +83,7 @@ export default function Home() {
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "text-decoration-line": "underline"}}>Presidency School, Bangalore South, India</span></h3>
+          <h3 className="vertical-timeline-element-title"><span style={{fontWeight: "bold", "textDecorationLine": "underline"}}>Presidency School, Bangalore South, India</span></h3>
           <h4 className="vertical-timeline-element-subtitle">High School</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement

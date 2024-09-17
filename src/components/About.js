@@ -42,46 +42,50 @@ export default function About() {
         <hr className="about-separator" />
         <h2>⚡ Technical Skills ⚡</h2>
         <table className="about-skills-table">
-          <tr>
-            <th>Area</th>
-            <th>Proficiencies</th>
-          </tr>
-          <tr>
-            <td>FrontEnd</td>
-            <td>React, Vue 3, Handlebars, EJS(Embedded JS), Tailwind CSS, Bootstrap, Webpack</td>
-          </tr>
-          <tr>
-            <td>BackEnd</td>
-            <td>Node.js, Express, Hapi, AWS API Gateway, API lambda, AWS Cloudwatch, S3</td>
-          </tr>
-          <tr>
-            <td>CI/CD</td>
-            <td>Travis CI, GitHub Actions</td>
-          </tr>
-          <tr>
-            <td>DevOps</td>
-            <td>Docker, Nginx, EC2 deployment</td>
-          </tr>
-          <tr>
-            <td>Web technologies</td>
-            <td>HTML5, CSS3, ES7+</td>
-          </tr>
-          <tr>
-            <td>Databases</td>
-            <td>PostgreSQL, MySQL, MongoDB (Mongoose)</td>
-          </tr>
-          <tr>
-            <td>Misc</td>
-            <td>Git, Eslint, Prettier, Typescript</td>
-          </tr>
-          <tr>
-            <td>Languages</td>
-            <td>Javascript, Typescript, YAML</td>
-          </tr>
-          <tr>
-            <td>Third Party API Integration</td>
-            <td>Stripe payment, Gitlab API, Amazon ads API, Ship Station API ...</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Area</th>
+              <th>Proficiencies</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>FrontEnd</td>
+              <td>React, Vue 3, Handlebars, EJS(Embedded JS), Tailwind CSS, Bootstrap, Webpack</td>
+            </tr>
+            <tr>
+              <td>BackEnd</td>
+              <td>Node.js, Express, Hapi, AWS API Gateway, API lambda, AWS Cloudwatch, S3</td>
+            </tr>
+            <tr>
+              <td>CI/CD</td>
+              <td>Travis CI, GitHub Actions</td>
+            </tr>
+            <tr>
+              <td>DevOps</td>
+              <td>Docker, Nginx, EC2 deployment</td>
+            </tr>
+            <tr>
+              <td>Web technologies</td>
+              <td>HTML5, CSS3, ES7+</td>
+            </tr>
+            <tr>
+              <td>Databases</td>
+              <td>PostgreSQL, MySQL, MongoDB (Mongoose)</td>
+            </tr>
+            <tr>
+              <td>Misc</td>
+              <td>Git, Eslint, Prettier, Typescript</td>
+            </tr>
+            <tr>
+              <td>Languages</td>
+              <td>Javascript, Typescript, YAML</td>
+            </tr>
+            <tr>
+              <td>Third Party API Integration</td>
+              <td>Stripe payment, Gitlab API, Amazon ads API, Ship Station API, Keycloak...</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
