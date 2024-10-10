@@ -5,7 +5,7 @@ export default function About() {
       <div>
         <h1>{"Hi, I'm Akhilesh! 👋"}</h1>
         <blockquote>
-          <p>💻 Full-stack Software Developer</p>
+          <p>💻 MERN-Full-stack Developer</p>
         </blockquote>
         <p className="about-links-container">
           <a href="https://www.linkedin.com/in/akhileshsooji028/">

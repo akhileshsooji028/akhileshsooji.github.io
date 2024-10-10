@@ -14,7 +14,7 @@ export default function Home() {
                         Akhilesh A Sooji
           </h1>
           <p className="home-description">
-                        Full-Stack Developer
+                        MERN-Full Stack Developer
           </p>
         </article>
       </div>
